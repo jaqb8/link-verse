@@ -7,7 +7,7 @@ import { derived, writable, type Readable } from "svelte/store";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCtAhWCbRh5qGyLpxFSF43PPd2qZAUtadc",
-  authDomain: "link-verse.firebaseapp.com",
+  authDomain: "link-verse.netlify.app",
   projectId: "link-verse",
   storageBucket: "link-verse.appspot.com",
   messagingSenderId: "934103429118",
