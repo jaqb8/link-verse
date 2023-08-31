@@ -11,15 +11,15 @@
 </svelte:head>
 
 <main class="prose text-center mx-auto mt-8">
-  <h1 class="text-7xl text-purple-500">
+  <h1 class="text-7xl font-bold">
     @{data.username}
   </h1>
 
   <img
     src={data.photoURL ?? "/user.png"}
     alt="photoURL"
-    width="256"
-    class="mx-auto mt-4"
+    width="200"
+    class="mx-auto mt-8 mask mask-circle"
   />
 
   <p class="text-xl my-8">{data.bio ?? "no bio yet..."}</p>

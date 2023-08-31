@@ -9,9 +9,6 @@
 <main class="max-w-lg prose text-center mx-auto my-6">
   <p>Current Bio: <span class="text-info">{data.bio}</span></p>
 
-  <p>Status Code: {$page.status}</p>
-  <p class="text-error">{$page.form?.problem ?? ""}</p>
-
   <form method="POST" use:enhance>
     <div class="form-control">
       <label for="bio" class="label">

@@ -1,8 +1,9 @@
 <script lang="ts">
   import { page } from "$app/stores";
-  import { AnimatedRoute } from "$lib/components";
+  import { AnimatedRoute, Navbar } from "$lib/components";
 </script>
 
+<Navbar />
 <nav class="flex justify-center my-6">
   <ul class="steps">
     <a href="/login" class="step step-primary">Sign In</a>
