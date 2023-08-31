@@ -1,6 +1,7 @@
-<script>
-  import { AuthCheck } from "$lib/components";
-</script>
+<svelte:head>
+  <title>LinkVerse</title>
+  <meta name="description" content="title" />
+</svelte:head>
 
 <div class="hero min-h-screen bg-base-200">
   <div class="hero-content text-center">

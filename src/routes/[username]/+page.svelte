@@ -1,14 +1,9 @@
 <script lang="ts">
   import { UserLink } from "$lib/components";
-  import type { PageData } from "./$types";
+  import type { LayoutData, PageData } from "./$types";
 
-  export let data: PageData;
+  export let data: LayoutData;
 </script>
-
-<svelte:head>
-  <title>@{data.username} Links</title>
-  <meta name="description" content={data.bio} />
-</svelte:head>
 
 <main class="prose text-center mx-auto mt-8">
   <h1 class="text-7xl font-bold">

@@ -1,4 +1,4 @@
-import type { PageLoad } from "./$types";
+import type { LayoutLoad } from "./$types";
 import { collection, getDocs, limit, query, where } from "firebase/firestore";
 import { db } from "$lib/firebase";
 import { error } from "@sveltejs/kit";
@@ -30,4 +30,4 @@ export const load = (async ({ params }) => {
     bio: data.bio,
     links: data.links ?? [],
   };
-}) satisfies PageLoad;
+}) satisfies LayoutLoad;
